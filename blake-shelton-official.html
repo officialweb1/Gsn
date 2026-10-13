@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blake Shelton | Official Website</title>
+  <meta name="description" content="Official website of Blake Tollison Shelton — American country music singer, songwriter, and television personality.">
+  <style>
+    :root {
+      --primary: #1a2332;
+      --accent: #4a6fa5;
+      --dark: #0e141b;
+      --light: #f7f8fa;
+      --text: #1e242e;
+      --muted: #5c6770;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      background: var(--light);
+      line-height: 1.7;
+    }
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 1.2rem 5%;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+    header .logo {
+      font-size: 1.6rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.8rem;
+      font-family: system-ui, sans-serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.5px;
+    }
+    nav a:hover { color: var(--accent); }
+    .hero {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--dark) 100%);
+      color: white;
+      text-align: center;
+      padding: 5rem 5% 4rem;
+    }
+    .hero img {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid var(--accent);
+      margin-bottom: 1.5rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    .hero h1 {
+      font-size: 3.2rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 700px;
+      margin: 0 auto;
+      opacity: 0.95;
+    }
+    section {
+      padding: 4rem 8%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 2.2rem;
+      color: var(--primary);
+      margin-bottom: 1.2rem;
+      border-bottom: 3px solid var(--accent);
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+    .bio-intro {
+      font-size: 1.15rem;
+      margin-bottom: 2rem;
+    }
+    .timeline, .achievements, .personal {
+      display: grid;
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem 1.8rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+      border-left: 4px solid var(--accent);
+    }
+    .card h3 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      font-size: 1.25rem;
+    }
+    .personal-grid {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 2.5rem;
+      align-items: center;
+      margin-top: 1.5rem;
+    }
+    .personal-grid img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    }
+    footer {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      font-family: system-ui, sans-serif;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      header { flex-direction: column; gap: 0.8rem; }
+      nav a { margin: 0 0.8rem; }
+      .hero h1 { font-size: 2.2rem; }
+      .personal-grid { grid-template-columns: 1fr; }
+      section { padding: 3rem 5%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">BLAKE SHELTON</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#early">Early Life</a>
+      <a href="#music">Music</a>
+      <a href="#tv">Television</a>
+      <a href="#personal">Personal</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <img src="https://user25940.na.imgto.link/public/20261013/02aa5d1a862c11846578f01f-img-3609.avif" alt="Blake Shelton">
+    <h1>Blake Tollison Shelton</h1>
+    <p>American country music singer, songwriter, and television personality</p>
+  </div>
+
+  <section id="about">
+    <h2>Biography</h2>
+    <p class="bio-intro">
+      Blake Tollison Shelton (born June 18, 1976) is an American country music singer, songwriter, and television personality. 
+      Known for his distinctive voice, chart-topping hits, and long-running role as a coach on <em>The Voice</em>, he has become one of the most recognizable figures in modern country music.
+    </p>
+  </section>
+
+  <section id="early">
+    <h2>Early Life and Career</h2>
+    <div class="timeline">
+      <div class="card">
+        <h3>Birthplace</h3>
+        <p>Born in Ada, Oklahoma, to parents Dick and Dorothy Shelton.</p>
+      </div>
+      <div class="card">
+        <h3>Music Roots</h3>
+        <p>Began singing at age eight and writing songs at age fifteen.</p>
+      </div>
+      <div class="card">
+        <h3>Move to Nashville</h3>
+        <p>Relocated to Nashville, Tennessee, just two weeks after graduating high school in 1994 at age seventeen.</p>
+      </div>
+      <div class="card">
+        <h3>Breakthrough</h3>
+        <p>Signed to Giant Records and released his debut single "Austin" in 2001, which spent five weeks at number one on the Billboard Hot Country Songs chart.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="music">
+    <h2>Musical Achievements</h2>
+    <div class="achievements">
+      <div class="card">
+        <h3>Chart Success</h3>
+        <p>Has achieved 30 number-one singles on the country charts.</p>
+      </div>
+      <div class="card">
+        <h3>Grand Ole Opry</h3>
+        <p>Inducted as a member of the Grand Ole Opry in 2010.</p>
+      </div>
+      <div class="card">
+        <h3>Key Albums</h3>
+        <p>Released multi-platinum and charting albums such as <em>Blake Shelton</em>, <em>The Dreamer</em>, <em>Based on a True Story...</em>, <em>Texoma Shore</em>, and <em>For Recreational Use Only</em>. Learn more via Britannica.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tv">
+    <h2>Television Career</h2>
+    <div class="card">
+      <h3>The Voice</h3>
+      <p>Served as a prominent coach on NBC's reality singing competition <em>The Voice</em> from 2011 to 2023, leading nine contestants to victory across 23 seasons.</p>
+    </div>
+  </section>
+
+  <section id="personal">
+    <h2>Personal Life</h2>
+    <div class="card" style="margin-bottom: 2rem;">
+      <h3>Current Relationship</h3>
+      <p>Blake is currently in a relationship with Debbie Lummus — the woman he is planning to marry.</p>
+    </div>
+    <div class="personal-grid">
+      <img src="https://user25940.na.imgto.link/public/20261013/ed3593137bb9fc77ee8b3da4-img-3635.avif" alt="Debbie Lummus">
+      <div>
+        <div class="card">
+          <h3>Debbie Lummus</h3>
+          <p>His current partner and the woman he is on a plan to get married to.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Blake Shelton Official Website. All rights reserved.</p>
+    <p style="margin-top: 0.5rem; opacity: 0.7;">Country Music • The Voice • Grand Ole Opry</p>
+  </footer>
+</body>
+</html>
